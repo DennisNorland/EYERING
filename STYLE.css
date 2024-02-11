@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+/* navigation */
+
+nav{
+width: 85;
+background-color: #fff;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 1vw 8vw;
+box-shadow: black;
+}
+
+nav h1{
+    color: green;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 1s ease; 
+}
+
+nav .navigation ul li a:hover{
+    color: green;
+}
+
+/* homme */
+
+.home{
+    background-image:  linear-gradient(rgba(9, 5, 54, 0.3), rgba(52, 52, 65, 0.7)), url(../EARRINGS/jewelry\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.home h3{
+    color: wheat;
+    margin-top: 150px;
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+.home h2{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+.home p{
+    width: 50%;
+    margin-left: 30px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.home .yelow{
+    margin-top: 15px;
+}
+
+.home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 30px;
+    padding: 13px 35px;
+    width: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.home a.yelow{
+    color: #fff;
+    background: rgb(223, 37, 37);
+    transition: 0,3s ease;
+}
+
+
+.home a.yelow:hover{
+    color: rgb(21, 21, 100);
+    background:#fff;
+}
+
+/* showcase */
+
+.showcase {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.product{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.images{
+    display: flex;
+    padding: 0 8vw
+}
+
+
+
+.img.yelow{
+    margin-top: 15px;
+}
+
+.img a.yelow{
+    color: rgb(250, 9, 29);
+    background: #fff;
+    transition: 0,3s ease;
+}
+
+.img a.yelow{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.img a.yelow:hover{
+    color: rgb(21, 21, 100);
+    background:#fff;
+}
+
+/* stella */
+
+.smile{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+
+/* .scan{
+    float:right;
+} */
+.stella{
+    padding: 0 60px;
+}
+.stella .bring{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.smile{
+    position: relative;
+    /* background-color: red; */
+    width: 500px;
+    height: 300px;
+}
+.smile img:first-child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.smile img:nth-child(2){
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -50px;
+    bottom: 0;
+}
+.stella .scan{
+    margin-left: 100px;
+}
+
+/* test */
+
+.test{
+    background-color: rgb(230, 27, 27);
+
+}
+
+.test .yes{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.test .joy{
+    width: 100%;
+    height: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ .fat{
+    background-color: #fff ;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 30px;
+}
+
+/* two */
+
+.two{
+    width: 90%;
+    height: 400px;
+    background-color: #daa2a288;
+    padding: 8vw 8vw  8vw 8vw;
+}
+
+.two .perent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two .yelow{
+    width: 200px;
+    height: 100px;
+}
+
+.two a.yelow{
+    color: #fff;
+    background: green;
+    transition: 0,3s ease;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.two a.yelow:hover{
+    color: rgb(21, 21, 100);
+    background:#fff;
+}
+  
+/* .care{
+    flex-basis: 60%
+} */
+
+.bimg{
+    position: relative;
+    z-index: 2;
+
+}
+
+ .jiki{
+    height: 400px;
+    width: 400px;
+    background-color:  rgb(248, 24, 24);
+    position: relative;
+    bottom: 395px;
+    left: 10px;
+    z-index: 1;
+
+}
+
+/* clike */
+
+.clike{
+    width: 100%;
+    height: 100%;
+}
+
+.clike h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.shift1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.soft{
+    display:flex;
+    text-indent: inherit;
+    padding: 2vw 8vw 5vw 5vw;
+    }
+
+    /* rema */
+
+    .rema{
+        width: 100%;
+        height: 700px;
+    }
+
+    .rema h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /* grid */
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+        ;
+
+    }
+
+    
+    /* centre */
+
+    #centre{
+        width: 100%;
+        height: 300px;
+        background-image: url(../EARRINGS/IMG/pexels-markus-spiske-3806753.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #centre{
+        text-align: center;
+    }
+
+    #centre h1{
+        font-size: 40px;
+        color: orangered;
+        font-weight: bold;
+        padding: 2vw 2vw 1vw 2vw;
+    }
+
+    #centre p{
+        font-weight: bold;
+    }
+
+    #centre .button_2{
+        width: 100px;
+        height: 50px;
+        margin-top: 30px;
+        color: white;
+        cursor: pointer;
+        background-color: orangered;
+    }
+
+    #centre .button_2:hover{
+        color: #fff;
+        background-color: blue;
+    }
+
+    /* footer */
+
+    footer{
+    background-color: black;
+    margin-top: 50px;
+    }
+    
+    #thanks{
+        display: flex;
+        color: #fff;
+        padding: 0 8vw;
+    }
+    
+    .finish h4{
+        color: orangered;
+    }
+    
+    footer h5{
+        text-align: center;
+        color: orangered;
+        letter-spacing: 1rem;
+        font-weight: bold;
+    }
